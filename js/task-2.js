@@ -1,5 +1,5 @@
-function getShippingMessage(country, _price, deliveryFee) {
-  const totalPrice = _price * deliveryFee;
+function getShippingMessage(country, price, deliveryFee) {
+  const totalPrice = price * deliveryFee;
   return `Shipping to ${country} will cost ${totalPrice} credits`;
 }
 
